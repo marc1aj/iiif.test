@@ -1,0 +1,84 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://marc1aj.github.io/iiif.test/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "ACE Building Ontario Tech.",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "This is a northern facing view of the ACE building at Ontario Tech.",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Ontario Tech Library Archives",
+  "sequences" : [ {
+    "@id" : "http://842927ce-87cf-4a2a-b0a7-e0ae34d05a24",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://c0335ea4-8bdb-4ec0-9db6-c27fea67a7ae",
+      "@type" : "sc:Canvas",
+      "label" : "ACE Building Ontario Tech.",
+      "height" : 3744,
+      "width" : 5616,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://be1030a7-4836-4ba5-af7e-d9a10ca3588f",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/image/iiif/2/ace_exterior_1%2face_exterior_1.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/image/iiif/2/ace_exterior_1%2face_exterior_1.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 21026304,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 3744,
+          "width" : 5616
+        },
+        "on" : "http://c0335ea4-8bdb-4ec0-9db6-c27fea67a7ae"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://8b01c768-9614-4860-b892-71ce91c99c4c",
+      "@type" : "sc:Canvas",
+      "label" : "Koklan sample image",
+      "height" : 601,
+      "width" : 947,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://fb173639-199e-4c67-aeb9-b24f85360b46",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://free.iiifhosting.com/iiif/f9a02a80bf76333f50ffcf0f0c17aa58f9ebf6a1510c9801bde50f565ac0a936/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://free.iiifhosting.com/iiif/f9a02a80bf76333f50ffcf0f0c17aa58f9ebf6a1510c9801bde50f565ac0a936",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "native", "color", "gray" ],
+              "supports" : [ "regionByPct", "regionSquare", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "rotationBy90s", "mirroring" ]
+            } ]
+          },
+          "height" : 601,
+          "width" : 947
+        },
+        "on" : "http://8b01c768-9614-4860-b892-71ce91c99c4c"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
